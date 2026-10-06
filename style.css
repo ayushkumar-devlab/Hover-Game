@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: 10px 10px;
+    align-items: center;
+    justify-content: center;
+  
+.shape{
+    margin-left: 10px;margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#square:hover{
+    background-color: #fd1a1a;
+}
+
+h1{
+    font-weight: lighter;
+}
+#circle{
+    border-radius: 50%;
+}
+
+#circle:hover{
+    background-color: #1b06fa;
+}
+
+#diamond{
+    rotate: 45deg;
+    margin-top: 50px;
+    
+}
+
+#diamond:hover{
+    background-color: #f5f50a;
+   
+}
+
+#diamond h1{
+    rotate: -45deg;
+}
